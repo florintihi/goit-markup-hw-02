@@ -1,0 +1,231 @@
+:root {
+    --blue: #2196F3 ;
+    --heading-black: #212121;
+    --grey:#757575;
+    --filter-grey: #F5F4FA;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'roboto';
+    background-color: #fff;
+}
+
+/* Header section */
+.logo-web {
+    color: var(--blue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.78px;
+}
+
+.logo-studio {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.78px;
+}
+
+.nav a {
+    color: var(--heading-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: 0.28px;
+}
+
+a.current {
+    color: var(--blue);
+}
+
+
+.nav a:hover {
+    color: var(--blue);
+}
+
+.header-info a {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.28px;
+}
+
+.header-info a:hover {
+    color: var(--blue);
+}
+
+/* Title section */
+.hero-section {
+    background-color: #2F303A;
+}
+
+#title {
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.h1-button {
+    background-color: var(--blue);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 0.96px;
+    height: 50px;
+    width: 200px;
+}
+
+.h1-button:hover {
+    background-color: #2196F3;
+}
+
+/* What we do section */
+
+.section-list h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    color: var(--heading-black);
+}
+
+.section-list p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey);
+    letter-spacing: 0.42px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: var(--heading-black);
+}
+
+/* Our team section */
+.team-section {
+    background-color:#F5F4FA ;
+}
+
+.card-info {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    line-height: 1.17;
+}
+
+.card-info h3 {
+    /* font-family: 'roboto'; */
+    font-weight: 500;
+    color: var(--heading-black);
+}
+
+.card-info p {
+    font-weight: 400;
+    color: var(--grey);
+}
+
+/* Footer section */
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-web-footer {
+    color: var(--blue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+
+.logo-studio-footer {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+
+.address-footer {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.address-footer p {
+    color: #fff;  
+}
+
+.address-footer a {
+    color: #FFFFFF99;
+    line-height: 1.14;
+}
+
+.address-footer a:hover{
+    color: var(--blue);
+}
+
+/* Portfolio.html */
+/* Filter */
+
+.h2-portfolio {
+    display: none;
+}
+
+.filter .filter-button {
+    background-color: var(--filter-grey);
+    color: var(--heading-black);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    line-height: 1.62;
+    border-radius: 4px;;
+    text-align: center;
+    border: none;
+}
+
+.filter .filter-button:hover {
+    background-color: var(--blue);
+    color:#fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.filter .filter-button:focus {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.portfolio-card-info h3 {
+    color: var(--heading-black);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.portfolio-card-info p {
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
